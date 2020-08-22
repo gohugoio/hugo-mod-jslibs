@@ -1,3 +1,7 @@
+## Description
+
+This module wraps [AlpineJS](https://github.com/alpinejs/alpine).
+
 ## Installation
 
 First, add the module import to your site or theme component's configuration's module section:
