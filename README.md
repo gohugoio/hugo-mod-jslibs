@@ -16,7 +16,26 @@ To use AlpineJS with Turbolinks you can just import the modules into your config
 {{ partialCached "jslibs/turbolinks/script-src.html" "-" }}
 ```
 
-See each component's README for usage. The Hugo documentation has more information about [Hugo Modules](https://gohugo.io/hugo-modules/).
+See each component's README for usage.
 
 ## Versioning
 
+These modules have their own semver versioning scheme that does not match the upstream library they wrap. To see the current upstream versions, use:
+
+```bash
+hugo mod graph
+```
+
+To update one module:
+
+```
+hugo mod get -u github.com/gohugoio/hugo-mod-jslibs/instantpage
+```
+
+To update all:
+
+```
+hugo mod get -u
+```
+
+The Hugo documentation has more information about [Hugo Modules](https://gohugo.io/hugo-modules/), how versioning works etc.
