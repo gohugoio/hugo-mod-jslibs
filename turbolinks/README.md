@@ -2,7 +2,7 @@
 
 This module wraps [Turbolinks](https://github.com/turbolinks).
 
-Also, if [Alpine](../alpinejs/alpine) is present, it adds a set of event listeners that
+Also, if [Alpine](../alpinejs) is present, it adds a set of event listeners that
 prepares/cleans the AlpineJS state. Most importantly, it pauses Alpine's mutation observer so Turbolinks can do its work without interuption.
 
 ## Installation
