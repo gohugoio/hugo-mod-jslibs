@@ -2,6 +2,8 @@
 
 This module wraps [AlpineJS](https://github.com/alpinejs/alpine).
 
+This module also packages [Alpine Turbolinks Adapter](https://github.com/SimoTod/alpine-turbolinks-adapter) by [@SimoTod](https://github.com/SimoTod).
+
 ## Installation
 
 First, add the module import to your site or theme component's configuration's module section:
