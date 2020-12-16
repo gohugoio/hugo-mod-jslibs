@@ -8,3 +8,5 @@ github.com/alpinejs/alpine v2.6.0+incompatible h1:WVtZll4bFK0ODpLdd+I6CFMWFaqVcg
 github.com/alpinejs/alpine v2.6.0+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
 github.com/alpinejs/alpine v2.7.0+incompatible h1:uZDzk8Xy6mh533m05hi7JxJ2blJIswo9M3nJQyeVA/c=
 github.com/alpinejs/alpine v2.7.0+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
+github.com/alpinejs/alpine v2.8.0+incompatible h1:gSRM1X1MV+igNEKac7bBTGyaoO4uy+u1Zkm0mjMmZOA=
+github.com/alpinejs/alpine v2.8.0+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
