@@ -1,7 +1,7 @@
 {{- $isProd := hugo.IsProduction -}}
 {{- $js := resources.Get "jslibs/alpinejs/alpine.js" -}}
 {{- $js11 := resources.Get "jslibs/alpinejs/alpine-ie11.js" -}}
-{{- $jsTurbolinksAdapter := resources.Get "jslibs/alpinejs-turbolinks/alpine-turbolinks-adapter.js" -}}
+{{- $jsTurbolinksAdapter := resources.Get "jslibs/alpinejs-turbolinks/alpine-turbo-drive-adapter.js" -}}
 {{- $js = slice $jsTurbolinksAdapter $js | resources.Concat "jslibs/alpinejs/alpine.js" -}}
 {{- $js11 = slice $jsTurbolinksAdapter $js11 | resources.Concat "jslibs/alpinejs/alpine-ie11.js" -}}
 {{- if $isProd }}
