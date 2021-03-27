@@ -3,4 +3,4 @@
 {{- if $isProd }}
   {{ $js = $js | minify | fingerprint }}
 {{ end -}}
-<script type="module" src="{{ $js.RelPermalink }}" {{ if $isProd }} integrity="{{ $js.Data.Integrity }}" {{ end }}></script>
+<script src="{{ $js.RelPermalink }}" {{ if $isProd }} integrity="{{ $js.Data.Integrity }}" {{ end }}></script>
