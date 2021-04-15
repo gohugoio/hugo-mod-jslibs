@@ -9,7 +9,7 @@ Hugo has great support for [JavaScript building](https://gohugo.io/hugo-pipes/js
 * The dependencies can be vendored (`hugo mod vendor`) to make your site truly standalone.
 * ...
 
-To use AlpineJS with Turbolinks you can just import the modules into your config and then add this to youer `head`
+To use AlpineJS with Turbolinks you can just import the modules into your config and then add this to your `head`
 
 ```
 {{ partialCached "jslibs/alpinejs/script-src.html" "-" }}
