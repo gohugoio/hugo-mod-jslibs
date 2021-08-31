@@ -11,22 +11,19 @@ First, add the module import to your site or theme component's configuration's m
 ```toml
 [module]
 [[imports]]
-path = "github.com/gohugoio/hugo-mod-jslibs/alpinejs"
+path = "github.com/gohugoio/hugo-mod-jslibs/alpinejs/v3"
 ```
+
+To use `v2` of AlpineJS, use the module path `github.com/gohugoio/hugo-mod-jslibs/alpinejs`
 
 Then add the script source in the head section of your template (typically in the `baseof.html`):
 
 
 ```html
 <head>
-{{ partialCached "jslibs/alpinejs/script-src.html" "-" }}
+{{ partialCached "jslibs/alpinejs/v3/script-src.html" "-" }}
 </head>
 ```
 
-Note, if used with Turbolinks, the order matters:
 
-```html
-{{ partialCached "jslibs/alpinejs/script-src.html" "-" }}
-{{ partialCached "jslibs/turbolinks/script-src.html" "-" }}
-```
 

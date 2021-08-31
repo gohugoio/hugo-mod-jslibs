@@ -1,8 +1,5 @@
-module github.com/gohugoio/hugo-mod-jslibs/alpinejs
+module github.com/gohugoio/hugo-mod-jslibs/alpinejs/v3
 
-go 1.13
+go 1.17
 
-require (
-	github.com/SimoTod/alpine-turbolinks-adapter v1.0.2 // indirect
-	github.com/alpinejs/alpine v2.8.2+incompatible // indirect
-)
+require github.com/bep/alpine/v3 v3.2.5-0.20211005075525-13dd6f30a529

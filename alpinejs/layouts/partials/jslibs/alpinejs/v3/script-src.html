@@ -1,0 +1,4 @@
+{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2016" }}
+{{- $js := resources.Get "alpinejs/dist/cdn.js" | js.Build $opts -}}
+<script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $js.Data.Integrity }}" {{ end }}defer></script>

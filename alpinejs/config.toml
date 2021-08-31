@@ -3,13 +3,7 @@
 source = "layouts"
 target = "layouts"
 [[module.imports]]
-path = "github.com/alpinejs/alpine"
+path = "github.com/bep/alpine/v3"
 [[module.imports.mounts]]
-source = "dist"
-target = "assets/jslibs/alpinejs"
-[[module.imports]]
-path = "github.com/SimoTod/alpine-turbolinks-adapter"
-[[module.imports.mounts]]
-source = "dist"
-target = "assets/jslibs/alpinejs-turbolinks"
-
+source = "packages"
+target = "assets/jslibs/alpinejs/v3"
