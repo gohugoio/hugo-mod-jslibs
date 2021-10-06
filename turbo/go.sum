@@ -1,0 +1,4 @@
+github.com/hotwired/turbo v7.0.1+incompatible h1:DvY56vNgcvH0vkw4VqlAc/hfsTeMdcoOKTGgnoGH6ok=
+github.com/hotwired/turbo v7.0.1+incompatible/go.mod h1:6XcpYEC+j8xb7URpSYwhlq4iq98M5F5T/jaLWNHVbZs=
+github.com/turbolinks/turbolinks-source-gem v5.2.0+incompatible h1:UNx8t3fYB51UyUv3gOXpTPT7Q6u9LCdcXQd2iW1EClA=
+github.com/turbolinks/turbolinks-source-gem v5.2.0+incompatible/go.mod h1:Cl0Br9tUXkQvxumVNGTvyaa7dqpFC2kPMrsS0Ttc94U=
