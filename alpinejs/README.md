@@ -1,3 +1,6 @@
+
+For AlpineJS >= v3, see https://github.com/gohugoio/hugo-mod-jslibs-dist/tree/main/alpinejs
+
 ## Description
 
 This module wraps [AlpineJS](https://github.com/alpinejs/alpine).
