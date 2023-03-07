@@ -8,6 +8,8 @@ github.com/bep/turbo/v7 v7.0.1-patch1 h1:2tMyUXhp/MGakNggqIfhc2cMEyMc2z9epZXzj9W
 github.com/bep/turbo/v7 v7.0.1-patch1/go.mod h1:CIoAv+QVJtkr+kXn2ZmfJ/V4r3TPLR6CNMGvWjWqdSc=
 github.com/bep/turbo/v7 v7.20001.20100 h1:k/exSUTpju2RnS5A9fVGkw2ipYsS12kPi9xwmnhf+3Q=
 github.com/bep/turbo/v7 v7.20001.20100/go.mod h1:CIoAv+QVJtkr+kXn2ZmfJ/V4r3TPLR6CNMGvWjWqdSc=
+github.com/bep/turbo/v7 v7.20300.20000 h1:omrI4cPRwnLufr8S7jCo9JG95FVTM8hIEvJCtgbnhuc=
+github.com/bep/turbo/v7 v7.20300.20000/go.mod h1:CIoAv+QVJtkr+kXn2ZmfJ/V4r3TPLR6CNMGvWjWqdSc=
 github.com/hotwired/turbo v7.0.1+incompatible h1:DvY56vNgcvH0vkw4VqlAc/hfsTeMdcoOKTGgnoGH6ok=
 github.com/hotwired/turbo v7.0.1+incompatible/go.mod h1:6XcpYEC+j8xb7URpSYwhlq4iq98M5F5T/jaLWNHVbZs=
 github.com/turbolinks/turbolinks-source-gem v5.2.0+incompatible h1:UNx8t3fYB51UyUv3gOXpTPT7Q6u9LCdcXQd2iW1EClA=
