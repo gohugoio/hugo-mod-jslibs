@@ -9,7 +9,7 @@ First, add the module import to your site or theme component's configuration's m
 ```toml
 [module]
 [[imports]]
-path = "github.com/gohugoio/hugo-mod-jslibs/turbo/v7"
+path = "github.com/gohugoio/hugo-mod-jslibs/turbo/v8"
 ```
 
 Then add the script source in the head section of your template (typically in the `baseof.html`):
@@ -21,4 +21,4 @@ Then add the script source in the head section of your template (typically in th
 </head>
 ```
 
-Note that the target `src` folder gets mounted to `assets/jslibs/turbo/v7`.
+Note that the target `src` folder gets mounted to `assets/jslibs/turbo/v8`.
