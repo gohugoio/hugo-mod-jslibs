@@ -1,4 +1,4 @@
-{{- $isProd := hugo.IsProduction -}}
+{{- $isProd := not hugo.IsDevelopment -}}
 {{- $js := resources.Get "jslibs/instantclick/instantclick.js" | js.Build -}}
 {{- if $isProd }}{{ $js = $js | minify | fingerprint }}{{ end -}}
 <script src="{{ $js.RelPermalink }}" {{ if $isProd }} integrity="{{ $js.Data.Integrity }}" {{ end }}></script>

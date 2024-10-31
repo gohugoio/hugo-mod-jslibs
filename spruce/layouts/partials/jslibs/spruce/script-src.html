@@ -1,6 +1,8 @@
-{{- $isProd := hugo.IsProduction -}}
+{{- $isProd := not hugo.IsDevelopment -}}
 {{- $js := resources.Get "jslibs/spruce/spruce.umd.js" -}}
 {{- if $isProd }}
   {{ $js = $js | minify | fingerprint }}
 {{ end -}}
-<script src="{{ $js.RelPermalink }}" {{ if $isProd }} integrity="{{ $js.Data.Integrity }}" {{ end }}></script>
+<script
+  src="{{ $js.RelPermalink }}"
+  {{ if $isProd }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
