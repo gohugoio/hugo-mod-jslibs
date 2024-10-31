@@ -1,5 +1,8 @@
 {{- $isProd := not hugo.IsDevelopment -}}
-{{ $scripts := slice  (resources.Get "jslibs/instantclick/instantclick.js") (resources.Get "jslibs/instantclick/index.js") }}
+{{ $scripts := slice
+  (resources.Get "jslibs/instantclick/instantclick.js")
+  (resources.Get "jslibs/instantclick/init.js")
+}}
 {{- $js := $scripts | resources.Concat "jslibs/instantclick/index.js" | js.Build -}}
 {{- if $isProd }}{{ $js = $js | minify | fingerprint }}{{ end -}}
 <script
