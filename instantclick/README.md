@@ -18,7 +18,7 @@ Then add the script source before the end body tag:
 </body>
 ```
 
-The dafault init script looks like this:
+The default init script looks like this:
 
 ```js
 // Default init script for InstantClick.
@@ -26,6 +26,6 @@ InstantClick.init();
 
 ```
 
-To do custom initialization, add a custonm script to your project in `assets/jslibs/instantclick/init.js`.
+To do custom initialization, add a custom script to your project in `assets/jslibs/instantclick/init.js`.
 
 See the [InstantClick](http://instantclick.io/) documentation for configuration.
