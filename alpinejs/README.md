@@ -1,3 +1,5 @@
+This module is no longer maintained, see [gohugoio/hugo-mod-jslibs-dist](https://github.com/gohugoio/hugo-mod-alpinejs)  for a replacement.
+
 
 For AlpineJS >= v3, see https://github.com/gohugoio/hugo-mod-jslibs-dist/tree/main/alpinejs
 
